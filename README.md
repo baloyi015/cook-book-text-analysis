@@ -1,6 +1,6 @@
 **Title:** Cookbook Review Text Analysis: Understanding User Opinions on Recipes
 
-**Abstract:** This project explores user sentiment towards recipes using text analysis of cookbook reviews. The goal was to gain insights into user preferences and behavior. Techniques included data exploration, and text preprocessing.
+**Abstract:** This project explores user sentiment towards recipes using text analysis (NLP subfield) of cookbook reviews. The goal was to gain insights into user preferences and behavior. Techniques utilized in this projects include data exploration, data visualization and text preprocessing.
 
 **Introduction:**
 
@@ -45,10 +45,14 @@ The following steps were conducted for data cleaning and formatting:
 
  **Text Analysis:**
 - Association between different fields
-- Document and sentence distributions
-- Reviewed words associated with 1-3 and 4-5 ratingss v. negative, neutral and postive sentiments
-- Identified most common words for each group(ratings and sentiments)
+- Explored document and sentence level length distributions
+- Reviewed words associated with negative, neutral and postive sentiments
+- Outlined most common words used in recipe domain
 
 **Python libraries:** 
   - Data analysis (`nltk, spacy, scikit-learn`)
-  - Visualization (`plotly, matplotlib, seaborn, wordcloud`).
+  - Visualization (`matplotlib, seaborn, wordcloud`).
+  - Continous Integration: git commad-Line-Inerface
+
+
+
